@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Resultado de la Busqueda</h1>
+    <hr>
+    <table>
+        <caption>Resultado de la Busqueda</caption>
+        <tr>
+            <th>Imagen</th>
+            <th>Datos</th>
+           
+        </tr>
+        <tr>
+            <th><img width="100" alt="Portatil" src="file:///home/nosotros/Proyectos/Cursos CCYD/EscuelitaJava/Escuelita/Definitivo/Web/Modulo HTML/imagenes/portatil.png"></th>
+            <td><a href="#" >Portatil 3Ghz - 32GB RAM</a><br>
+            <a href="#" >Comprar</a> EUR 2600
+            </td>
+           
+        </tr>
+        <tr>
+            <th>Cell</th>
+            <td>Cell</td>
+           
+        </tr>
+    </table>
+</body>
+</html>

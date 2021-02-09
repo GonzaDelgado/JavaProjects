@@ -1,0 +1,13 @@
+@charset "UTF-8";
+p { color: black; font-family: Verdana; }
+h1, h2, h3 {
+	color: #555753;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+.fondogris{background-color: #eeeeec;
+			color:#000000;}
+.linkrojo{color:red}

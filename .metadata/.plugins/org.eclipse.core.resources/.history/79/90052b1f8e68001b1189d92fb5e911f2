@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Listas</title>
+</head>
+<body>
+	<h1>Menú</h1>
+	<ul>
+		<li>Inicio</li>
+		<li>Noticias</li>
+		<li>Artículos</li>
+		<li>Contacto</li>
+	</ul>
+	<h2>Inicio</h2>
+	<p>Pasos para preparar un jugo:</p>
+	<ol>
+		<li>Verter el contenido del sobre a una botella con agua</li>
+		<li>Batir bien</li>
+		<li>Y a disfrutar!!</li>
+	</ol>
+</body>
+</html>

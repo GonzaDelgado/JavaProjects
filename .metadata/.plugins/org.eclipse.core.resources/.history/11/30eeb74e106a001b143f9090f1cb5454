@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Resultado de la Busqueda</h1>
+    <hr>
+    <table>
+        <caption>Resultado de la Busqueda</caption>
+        <tr>
+            <th>Imagen</th>
+            <th>Datos</th>
+           
+        </tr>
+        <tr>
+            <td><img width="80" alt="Portatil" src="file:///home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/portatil.png"></td>
+            <td><a href="#" >Portatil 3Ghz - 32GB RAM</a><br>
+            <a href="#" >Comprar:</a> <del>EUR 2.990</del>EUR 2.600
+            </td>
+           
+        </tr>
+        <tr>
+           	<td><img width="80" alt="Videocámara" src="file:///home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/videocamara.png"></td>
+            <td><a href="#" >Videocámara - Alta definición 1080p - 60GB</a><br>
+            <a href="#" >Comprar:</a><del>EUR 1.099</del> EUR 999
+            </td>
+           
+        </tr>
+        <tr>
+           	<td><img width="80" alt="Television" src="file:///home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/televisor.png"></td>
+            <td><a href="#" >Televisor - 46" - Full HD</a><br>
+            <a href="#" >Comprar:</a><del>EUR 1.999</del> EUR 1.799
+            </td>
+           
+        </tr>
+        <tr>
+           	<td><img width="80" alt="Movil" src="file:///home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/movil.png"></td>
+            <td><a href="#" >Móvil - 3G - Wi-Fi - 8GB</a><br>
+            <a href="#" >Comprar:</a><del>EUR 399</del> EUR 349
+            </td>
+           
+        </tr>
+    </table>
+</body>
+</html>

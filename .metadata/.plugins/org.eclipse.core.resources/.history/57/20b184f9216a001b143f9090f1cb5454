@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Informacion del Producto</title>
+</head>
+<body>
+	<h2>Información sobre el Producto</h2>
+	<form action=".." method="post" enctype="multipart/form-data">
+	<fieldset><legend>Datos básicos</legend>
+		<label for="nombre_usuario">Nombre</label> <br/>
+		<input type ="text" size="40" name="nombre" value="" maxlength="100"/><br>
+	</fieldset>
+	
+	</form>
+</body>
+</html>

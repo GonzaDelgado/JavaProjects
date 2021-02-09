@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Informacion del Producto</title>
+</head>
+<body>
+	<h2>Información sobre el Producto</h2>
+	<form action=".." method="post" enctype="multipart/form-data">
+	<fieldset><legend>Datos básicos</legend>
+		<label for="nombre_usuario">Nombre</label> <br/>
+		<input type ="text" size="40" name="nombre" value="" maxlength="100"/><br>
+		<label for="descripcion">Descripción</label> <br/>
+		<textarea rows="40" cols="30" name="descripcion"></textarea><br>
+		<label for="adjunto">Foto</label> <input type="file" name="adjunto" /><br>
+		<input name="añadir_contador" type="checkbox" value="añadir_contador"/>
+		<label for="añadir_contador">Añadir contador de visitas</label> <br/>
+		
+	</fieldset>
+	
+	</form>
+</body>
+</html>

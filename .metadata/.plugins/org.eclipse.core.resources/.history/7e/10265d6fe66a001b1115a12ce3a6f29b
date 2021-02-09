@@ -1,0 +1,21 @@
+@charset "UTF-8";
+p { color: black; font-family: Verdana; }
+h1, h2, h3 {
+	color: #555753;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+.fondogris{background-color: #eeeeec;
+			color:#000000;}
+.blanco{color:#ffffff}
+.gris{color:#babdb6}
+.negro{color:#000000}
+.azulclaro{color:#729fcf}
+.azuloscuro{color:#204a87}
+.verdeclaro{color:#8ae234}
+.verdeoscuro{color:#4e9a06}
+.rosa{color:#ff008b}
+input{background-color:#f9f9f9}

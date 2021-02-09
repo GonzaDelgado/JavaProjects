@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Imagenes</title>
+</head>
+<body>
+	<h1>Imagenes</h1>
+	<p>Imagen local sin cambios:</p>
+	<img src="/home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/televisor.png" alt="Televisor"/>
+	<p>Imagen local tamaño fijo:</p>
+	<img src="/home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/televisor.png" width="100" heigth="100" />
+	<p>Imagen local tamaño porcentual:</p>
+	<img src="/home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/televisor.png" width="50%" heigth="30%" />
+	<p>Imagen local tamaño fijo y porcentual:</p>
+	<img src="/home/gonzalo/Escritorio/cursos/Escuelita_java/Modulo_HTML/imagenes/televisor.png" width="100" heigth="45%" />
+	<p>imagen web sin cambios:</p>
+	<img src="http://www.clipartbest.com/cliparts/9cR/76o/9cR76orce.png" />
+</body>
+</html>

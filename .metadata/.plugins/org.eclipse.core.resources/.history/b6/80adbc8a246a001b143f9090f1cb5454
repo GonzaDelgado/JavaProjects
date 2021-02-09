@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Informacion del Producto</title>
+</head>
+<body>
+	<h2>Información sobre el Producto</h2>
+	<form action=".." method="post" enctype="multipart/form-data">
+	<fieldset><legend>Datos básicos</legend>
+		<label for="nombre_usuario">Nombre</label> <br/>
+		<input type ="text" size="40" name="nombre" value="" maxlength="100"/><br>
+		<label for="descripcion">Descripción</label> <br/>
+		<textarea rows="10" cols="40" name="descripcion"></textarea><br>
+		<label for="adjunto">Foto</label> <input type="file" name="adjunto" /><br>
+		<input name="añadir_contador" type="checkbox" value="añadir_contador"/>
+		<label for="añadir_contador">Añadir contador de visitas</label> <br/>
+		
+	</fieldset>
+	<fieldset><legend>Datos económicos</legend>
+		<label for="nombre">Precio </label>&nbsp;
+		<input type ="text" size="5" name="precio" value="" maxlength="10"/>&nbsp;&euro;&nbsp;
+		<label for="impuestos">Impuestos </label>
+		<select id="impuestos" name="impuestos">
+			<option value="" selected="selected">- selecciona -</option>
+			<option value="4porc">4%</option>
+			<option value="7porc">7%</option>
+			<option value="16porc">16%</option>
+			<option value="25porc">25%</option>
+		</select><br>
+		<label for="promocion">Promoción</label> <br/>
+		<input type="radio" name="promocion" value="ninguno" checked="checked"/><label for="ninguno">Ninguno</label> <br/>
+		<input type="radio" name="promocion" value="trans_grat"/><label for="trans_grat">Transporte Gratuito</label><br>
+		<input type="radio" name="promocion" value="desc_5porc"/><label for="desc_5porc">Descuento 5%</label> <br/>
+	
+	</fieldset>
+	</form>
+</body>
+</html>

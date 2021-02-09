@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario Avanzado</title>
+<link rel="stylesheet" type="text/css" href="file:///home/gonzalo/eclipse-workspace/modulo_css/WebContent/estilos.css" media="screen" />
+</head>
+<body>
+	<h2>Rellena tu CV</h2>
+	<form class= "fondogris" action=".." method="post" enctype="multipart/form-data">
+	<fieldset><legend>Datos de conexion</legend>
+	<label for="nombre_usuario">Nombre de Usuario</label> <br/>
+	<input type ="text" size="10" name="nombre_usuario" value="" maxlength="30"/><br>
+	<label for="psw">Contraseña</label> <br/>
+	<input type ="password" size="10" name="psw" value="" maxlength="10"/><br>
+	</fieldset>
+	<fieldset><legend>Datos Personales</legend>
+	<label for="nombre">Nombre</label> <br/>
+	<input type ="text" size="10" name="nombre" value="" maxlength="30"/><br>
+	<label for="apellido">Apellido</label> <br/>
+	<input type ="text" size="30" name="apellido" value="" maxlength="80"/><br>
+	<label for="dni">DNI</label> <br/>
+	<input type="text" size="8" name="dni" value="" maxlength="10"/><br>
+	<label for="provincia">Provincia</label> <br/>
+	<select id="provincia" name="provincia">
+	<option value="" selected="selected">- selecciona -</option>
+	<option value="bsas">Buenos Aires</option>
+	<option value="caba">CABA</option>
+	<option value="mendoza">Mendoza</option>
+	<option value="cordoba">Córdoba</option>
+	<option value="neuquen">Neuquen</option>
+	<option value="otra">Otra</option>	
+	</select><br>
+	<label for="fecha_nac">Fecha de Nacimiento</label> <br/>
+	<input type ="text" size="2" name="dia" value="" maxlength="3"/> De
+	<select id="fecha_nac" name="fecha_nac">
+	<option value="" selected="selected">- selecciona -</option>
+	<option value="enero">Enero</option>
+	<option value="febrero">Febrero</option>
+	<option value="marzo">Marzo</option>
+	<option value="abril">Abril</option>
+	<option value="mayo">Mayo</option>
+	<option value="junio">Junio</option>
+	<option value="julio">Julio</option>
+	<option value="agosto">Agosto</option>
+	<option value="septiembre">Septiembre</option>
+	<option value="octubre">Octubre</option>
+	<option value="noviembre">Noviembre</option>
+	<option value="diciembre">Diciembre</option>	
+	</select> De
+	<input type ="text" size="4" name="año" value="" maxlength="5"/>
+	<br>
+	<label for="sexo">Sexo</label> <br/>
+	<input type="radio" name="sexo" value="hombre" checked="checked"/><label for="hombre">Hombre</label> <br/>
+	<input type="radio" name="sexo" value="mujer"/><label for="mujer">Mujer</label> <br/>
+	<label for="adjunto">Incluir mi foto</label> <input type="file" name="adjunto" /><br>
+	<label for="temas_interes">Temas De Interes</label><br/>
+	<select multiple="multiple" name="temas_interes">
+		<option value="adm_bd">Administración de Bases de Datos</option>
+		<option value="ana_prog">Análisis y programación</option>
+		<option value="arq">Arquitectura</option>
+		<option value="cal">Calidad</option>
+		<option value="erp_crm_busint">ERP, CRM, Business intelligence</option>
+	</select>
+	</fieldset>
+	<input name="suscripcion_boletin" type="checkbox" value="suscripcion_boletin" checked="checked"/>
+	<label for="suscripcion_boletin">Suscribirme al boletín de novedades</label> <br/><br>
+	<input type="submit" name="guardar_cambios" value="Guardar Cambios"> 
+	<input type="reset" name="limpiar" value="Borrar los Datos Introducidos"> 	
+	
+	</form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fusion de Filas y Columnas</title>
+</head>
+<body>
+	<h1>Fusion Columnas</h1>
+	<table border="1">
+		<tr>
+			<td colspan="3">A</td>
+			<td>B</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td colspan="2">D</td>
+			<td>E</td>
+		</tr>
+		<tr>
+			<td colspan="4">F</td>
+		</tr>
+		<tr>
+			<td>G</td>
+			<td>H</td>
+			<td>I</td>
+			<td>J</td>
+		</tr>
+	</table>
+	<h1>Fusion Filas</h1>
+	<table>
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td rowspan="3">C</td>
+			<td>D</td>
+		</tr>
+		<tr>
+			<td rowspan="2">E</td>
+			<td>F</td>
+			<td rowspan="3">G</td>
+		</tr>
+		<tr>
+			<td>H</td>
+			</tr>
+		<tr>
+			<td>I</td>
+			<td>J</td>
+			<td>K</td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tablas</title>
+</head>
+<body>
+	<h1>SU PEDIDO</h1>
+	<table>
+		<tr>
+			<th scope="col">Nombre Producto </th>
+			<th scope="col">Precio Unitario </th>
+			<th scope="col">Unidades </th>
+			<th scope="col">Subtotal </th>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+			<td> </td>						
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+			<td> </td>						
+			<td> </td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td> </td>
+			<td> </td>						
+			<td> </td>
+		</tr>
+		<tr>
+			<td><center>TOTAL</center></td>
+			<td> </td>
+			<td> </td>						
+			<td> </td>
+		</tr>	
+	
+	
+	</table>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+</head>
+<body>
+	<form action=".." method="post" enctype="multipart/form-data">
+	Nombre<br>
+	<input type ="text" size="10" name="nombre" value="" maxlenght="30"/>
+	
+	</form>
+</body>
+</html>
